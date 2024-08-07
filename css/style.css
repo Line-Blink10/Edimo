@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: serif;
 }
-
+/*== Section one ==*/
 .main-about
 {
     background-image: url(../images/product-image14.jpg);
@@ -50,74 +50,51 @@
 .about_img_section{
     display: flex;
     flex-direction: row;
-    
-    
 }
-.section-2 {
-    padding: 1.2rem 8rem;
-}
-.section-2 .about-container{
+
+/*=== Section Two ===*/
+.container{
     display: flex;
-    flex-direction: row;
 }
 
-
-.image{
-    width: 50%;
-    height: auto;
-    border-radius: 50px;
-    margin-top: 10px;
-    padding: 20px;
-}
- 
-.image-text-container{
-    /* width: 15px; */
-    /* display: flex; */
-    /* flex-direction: column;
-    align-items: center;
-    margin-top: 10px; */
+.container img{
+    width: 500px;
+    height: 300px;
 }
 
-.diagram-container{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 500px;
-    justify-content: space-between;
-    margin: 10px;
-}
-.diagram-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-   
-    
-    
-}
-.diagram-column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
-    padding: 10px 30px;
-    margin-left: 50px;
-    border-radius: 50px;
-
-}
-.button-1{
-    flex-direction: column;
-}
-.button-2{
-    flex-direction: row;
+.description{
+    padding: 40px 25px 25px 25px;
+    text-align: justify;
 }
 
-
-.btn{
-    flex-direction: column;
-    display: flex;
-
-}
+/*=== Section Three ===*/
 .d-flex{
     display: flex;
-    border-radius: 1%;
+    margin: 5%;
+    padding-right: 15px;
 }
+
+.d-flex img{
+    padding: 10px auto 10px auto;
+    width: 50px;
+    height:50px;
+}
+
+.bg-img{
+    border: 2px solid #f4f4f4;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+.sponsors{
+    display: flex;
+}
+
+.sponsors img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
