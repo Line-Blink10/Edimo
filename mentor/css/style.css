@@ -5,6 +5,29 @@
     font-family: sans-serif;
     cursor: pointer;
 }
+/* ==================Responsive section ====================== */
+@media screen and (min-width:576px) {
+    /* ======nav-bar section */
+    .nav-section{
+        display: block;
+        flex-direction: row;
+        margin-left: 5px;
+        gap: 5cm;
+        padding: 0;
+        background-color:azure;
+        height: 70px;
+        padding-top: 25px;
+    }
+    /* =============about section================ */
+    
+.aboutpage-flex{
+    display: block;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 3rem;
+   }
+}
 
 /*============================== nav-bar section========================*/
 
@@ -64,8 +87,10 @@ ul li{
     padding: .5rem .9rem;
     text-decoration: none;
     color: white;
-    
-    
+}
+
+.get{
+    margin-top: 3rem;
 }
 
 .main-banner{
@@ -76,21 +101,103 @@ ul li{
 }
 .main-banner h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10rem;
     font-weight:bolder;
+    
 }
 .main-banner p{
     text-align: center;
-    padding-top: 10px;
+    font-size: 15px;
 }
 .main-banner, .get-started{
-    text-align: center;
-    
+    text-align: center; 
 
 }
-h1{
-    text-align: center;
-    padding: 20px;
+/* =========================== about page section =================== */
+.about-page{
+    margin-top: 2rem;
+}
+.abouth1{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.aboutpage-flex{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 3rem;
+}
+.radio-span{
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+ }
+#about-left , #about-right{
+    background-color: whitesmoke;
+} 
+#about-left{
+    width: 95%;
+}
+#about-left p{
+    padding: 0.8rem 1rem;
+}
+#about-left .radio-span{
+    padding: 0.8rem 1rem;
+
+}
+#about-right{
+    width: 95%;
+}
+#about-right p{
+    padding: 0.8rem 1rem;
+
+}
+.aboutpage-btn{
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    border-color:rgb(121, 224, 30) ;
+    color:rgb(121, 224, 30);
+    margin: 0.8rem 1rem;
+
+
+}
+.aboutpage-btn:hover{
+    background-color:rgb(121, 224, 30);
+    color: white;
+}
+.readmore{
+    margin-top: 2rem;
+}
+/* ======================partnership section========================== */
+#patner{
+    height: 13rem;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+
+}
+.partner-section{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin: 40px;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+#patner div{
+    margin: 3rem auto 3rem auto;
+    
+}
+.patner-img{
+    height: 5rem;
+    width: 5rem;
+
+}
+.patner-img:hover{
+    height: 6rem;
+    width: 6rem;
 }
 
 /*=========================what we offer section===========================*/
@@ -113,6 +220,9 @@ article div{
 }
 div p{
     padding-top: 10px;
+}
+.link-decoration{
+    text-decoration: none;
 }
 /*==================================Achievement section=====================*/
 .Achievement{
@@ -138,6 +248,9 @@ div p{
     padding-top: 10px;
     background-color: aliceblue;
 }
+#paddin-top{
+    padding-top: 2rem;
+}
 /*============================= blog post section=========================*/
 .blog-flex{
     display: flex;
@@ -147,6 +260,7 @@ div p{
     width: 19rem;
     margin-right: 20px;
     border: 2px;
+    
 }
 .blog-img{
     width: 18.5rem;
@@ -175,23 +289,29 @@ h4 {
     margin-bottom: 20px;
     
 }
+.testimonial-d-flex div{
+    
+    background-color: whitesmoke;
+}
 .testimonial-img{
     height: 3rem;
-    border-radius: 35%;
+    border-radius: 35% ;
     padding: 7px;
+    margin-top: 10px;
+    border: red;
+    
     
 }
 .icon-size{
     height: 1rem;
     padding: 2px;
-
-}
+    }
 
 /*=======================footer section===============================*/
 .footer{
     height: 3rem;
     text-align: center;
-    background-color:greenyellow;
+    background-color:rgb(121, 224, 30);
     color:black;
     padding-top: 10px;
     font-style: italic;
@@ -260,6 +380,26 @@ h1{
     color: white;
     font-size: medium;
     border: 0;
+    
 
+}
+.reminder{
+    padding-right: 3.3cm;
+}
+.btn-box{
+    background-color:rgb(121, 224, 30);
+    padding: .6rem .9rem;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.forgotten{
+    padding-right: 2cm;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.forgotten-password{
+    text-decoration: none;
 }
 
