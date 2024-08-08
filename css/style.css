@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -858,3 +859,97 @@ h1{
 }
 
 /* =========================== Blog Page ends here ========================*/
+
+/*== Section one ==*/
+.main-about
+{
+    background-image: url(../images/product-image14.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.main-about h1{
+  text-align: center;
+  color: white;
+  padding-top: 7rem;
+}
+.main-about a{
+  text-align: center;
+  color: white;
+  padding-top: 7.5rem;
+  flex-direction: column;
+}
+
+.about {
+    padding: 2.5rem 10rem;
+
+}
+.about .about-description {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: .6rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.about h2 {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+
+.about_img_section{
+    display: flex;
+    flex-direction: row;
+}
+
+/*=== Section Two ===*/
+.container{
+    display: flex;
+}
+
+.container img{
+    width: 500px;
+    height: 300px;
+}
+
+.description{
+    padding: 40px 25px 25px 25px;
+    text-align: justify;
+}
+
+/*=== Section Three ===*/
+.d-flex{
+    display: flex;
+    margin: 5%;
+    padding-right: 15px;
+}
+
+.d-flex img{
+    padding: 10px auto 10px auto;
+    width: 50px;
+    height:50px;
+}
+
+.bg-img{
+    border: 2px solid #f4f4f4;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+.sponsors{
+    display: flex;
+}
+
+.sponsors img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
