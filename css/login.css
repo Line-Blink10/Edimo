@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.login-page{
+    background-color: aqua;
+    gap: .5rem;
+    margin-top: 200px;
+ }
+
+            /* Login Content section CSS */
+.login-content{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 350px;
+    height: 370px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-content h5{
+    font-size: x-large;
+}
+
+ .login-img{
+    height: 3rem;
+    border-radius: 15%;
+ }
+ 
+
+            /* Form Section CSS*/
+ form{
+    padding: 20px;
+    margin-bottom: 1px;
+    display: grid;
+    row-gap: 2rem;
+    
+ }
+ 
+ .box-size1{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+ }
+
+ .box-size2{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+ }
+
+ .box-size3{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+ }
+
+ .form-button{
+       font-size: small;
+       
+
+ }
+
+ .form-text{
+    cursor: pointer;
+    row-gap: .5rem;
+ }
+
+ .login{
+    width: 200px;
+    height:20px;
+ }
