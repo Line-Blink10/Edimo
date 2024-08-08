@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     cursor: pointer;
+    
 }
 /* ==================Responsive section ====================== */
 @media screen and (max-width:576px) {
@@ -57,10 +58,12 @@
 ul li{
     display: inline-block;
     padding: 7px;
-    padding-top: 0;
-    
-    
-    
+    padding-top: 0; 
+}
+li:hover{
+     background-color: rgb(121, 224, 30);
+     color: white;
+     border-radius: 6px;
 }
 .nav-bar{
     width: 70%;
@@ -208,14 +211,16 @@ ul li{
 }
 
 /*=========================what we offer section===========================*/
-.d-flex{
+.supporters-flex{
     display: flex;
-    gap:20px;
+    gap:15px;
     margin-left: 35px;
     
+    
 }
-.d-flex article{
+.supporters-flex article{
     background-color: whitesmoke;
+    width: 19rem;
 
 }
 h2{
@@ -224,8 +229,11 @@ h2{
 }
 article div{
     width: 19rem;
-    height: 60%;
-   
+    height: 60%;   
+}
+article div a, p{
+    padding:.1rem auto ;   
+    margin: .5rem auto;
 }
 .img-width{
     width: 18.9rem;
@@ -317,7 +325,7 @@ h4 {
     
     
 }
-.icon-size{
+.testimonial-icon-size{
     height: 1rem;
     padding: 2px;
     }
@@ -399,7 +407,7 @@ h1{
 
 }
 .reminder{
-    padding-right: 3.3cm;
+    /*  */
 }
 .btn-box{
     background-color:rgb(121, 224, 30);
@@ -416,6 +424,9 @@ h1{
 }
 .forgotten-password{
     text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+
 }
 
 /*========================= Blog Page starts here =========================*/
@@ -550,12 +561,6 @@ h1{
     flex-direction: column;
     padding-right: 50px;
 }
-
-.sticky-reaction .love .count,
-.sticky-reaction .like .count,
-.sticky-reaction .reply .count{
-}
-
 .sticky-view img{
     padding-top: 25px;
     width: 40px;
