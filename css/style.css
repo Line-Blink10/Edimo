@@ -434,20 +434,25 @@ h1{
 .blue-section {
     background: linear-gradient(to right, rgb(43, 43, 164), #48a2de);
     color: #fff;
-    padding: 80px; 
+    padding: 100px; 
     text-align: center;
 }
 
 .h1-head h1 {
-    font-size: 96px; 
-    margin: 0;
-    font-weight: lighter;
+    font-weight: bolder;
+    padding-bottom: 15px;
 }
 
-.h5-head h5 {
+.nav-head a{
     font-size: 24px; 
     margin: 60px 0; 
     font-weight: lighter;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-head a:hover{
+    color: red;
 }
 
 
@@ -463,54 +468,47 @@ h1{
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: auto; /* Reduced max-width */
     width: 1250px;
-    padding: 20px;
+    padding: auto;
     box-sizing: border-box;
 }
 
 /* Image Styles */
-.sticky-img {
-    flex: 1;
-    margin: 20px;
-}
 
 .sticky-img img {
     width: 600px;
     height: 600px;
-    max-height: 500px; /* Adjust max-height as needed */
+    max-height: 400px; /* Adjust max-height as needed */
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 /* Info Section Styles */
 .sticky-info {
     flex: 2;
-    display: flex;
+    text-align: justify;
     flex-direction: column;
     justify-content: space-between; /* Ensures spacing between elements */
-    margin: 40px; /* Ensure at least 10px margin from the image */
-    margin-top: 50px;
+    margin-left: 20px; /* Ensure at least 10px margin from the image */
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 35px;
     font-size: x-large;
-}
-
-.sticky-people-date,
-.sticky-info-title,
-.sticky-text,
-.sticky-view {
-    padding-bottom: 15px;
+    padding: auto;
 }
 
 .sticky-people-date {
     display: flex;
     align-items: center;
-    margin-bottom: 15px; /* Space between people/date and next section */
+    text-align: justify;
+    padding-bottom: 25px;                 /* Space between people/date and next section */
 }
 
 .sticky-people {
     font-weight: bold;
     margin-right: 10px;
-    padding-right: 300px;
+    padding-right: 150px;
     text-decoration: none;
     color: black;
     font-weight: lighter;
@@ -521,8 +519,7 @@ h1{
     color: #888;
 }
 
-.sticker-info-title{
-    padding-bottom: 25px;
+.sticker-title{
     text-decoration: none;
 }
 
@@ -537,21 +534,26 @@ h1{
     text-decoration: underline;
 }
 
+.sticky-view{
+    padding-bottom: 15px;
+}
+
 .sticky-view-link {
     color: blue;
 }
 
 .sticky-reaction{
-    padding-top: 25px;
     display: flex;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 .sticky-reaction .love img,
 .sticky-reaction .like img,
 .sticky-reaction .reply img{
-    width: 35px;
-    height: 35px;
+    margin-top: 50px;
+    width: 25px;
+    height: 25px;
 }
 
 .sticky-reaction .love,
@@ -574,6 +576,7 @@ h1{
     color: rgba(68, 89, 117, 0.314);
 }
 
+
 /* Container Styles */
 .grid-container {
     display: grid;
@@ -582,7 +585,7 @@ h1{
     padding: 10px;
     max-width: 1300px; /* Set a maximum width */
     margin: 0 auto; /* Center the grid container */
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .article-card {
@@ -593,7 +596,7 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
     box-sizing: border-box;
-    height: 650px;
+    height: 675px;
 }
 
 .article-card img {
@@ -602,21 +605,20 @@ h1{
     object-fit: cover;
     border-radius: 4px;
     margin: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .article-meta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0px;
+    padding-bottom: 15px;
 }
 
 .article-category {
     font-weight: bold;
     color: black;
     text-decoration: none;
-    margin: 0px;
 }
 
 .article-date {
@@ -631,8 +633,9 @@ h1{
 .reaction .love img,
 .reaction .like img,
 .reaction .reply img{
-    width: 40px;
-    height: 55px;
+    padding: 5px;
+    width: 2.5rem; 
+    height: 2.5rem;
 }
 
 .reaction .love,
@@ -655,11 +658,14 @@ h1{
     padding-top: 0px;
 }
 
-.article-title{
-    margin: 0;
-    white-space: pre-wrap;
+.article-title{ 
+    padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
+}
+
+.sub-title{
+    padding-bottom: 25px;
 }
 
 .article-link a {
@@ -674,8 +680,8 @@ h1{
 }
 
 .article-link img{
-    width: 25px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     font-weight: bolder;
     cursor: pointer;
 }
@@ -692,12 +698,11 @@ h1{
     margin: 0 auto;
     width: fit-content;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 
 .navigation-list {
     list-style-type: none;
-    padding: 0;
     display: flex;
     justify-content: center;
     gap: 1px; /* Reduce gap between items */
@@ -715,7 +720,7 @@ h1{
 #nav-link-2 {
     background-color: blue;
     color: white;
-    border-radius: 50%;
+    border-radius: 10%;
     padding: 10px 10px; /* Adjust padding to make the link circular */
 }
 
@@ -755,7 +760,7 @@ h1{
 #subscribe-header {
     color: blue;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: 36px;
 }
 
@@ -765,6 +770,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 /* Styling for the input field */
