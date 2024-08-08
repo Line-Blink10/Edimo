@@ -1,6 +1,12 @@
+
+body{
+    background-color: lavender;
+}
+
+/*------------------------------HEADER SECTION------------------------------------------*/
 .banner{
     height: 300px;
-    background-image: url("images/depositphotos_2462897-stock-photo-modern-building-with-many-windows.jpg");
+    background-image: url("images/depositphotos_2462897-stock-photo-modern-building-with-many-windows - Copy.jpg");
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,44 +31,16 @@ h1{
     color:white;
     padding-top:90px;
 }
+
+/*------------------------------HEADER SECTION  ENDS------------------------------------------*/
+
+
+/*------------------------------OFFER SECTION------------------------------------------*/
 h1:hover{
     color: orangered;
 }
 .para{
     color:black;
-}
-
-.mem{
-    display:flex;
-    background-position: center;
-    padding-top:30px;
-    justify-content: center;
-    gap:4rem;
-    
-}
-.foot li{
-    padding-right: 10px;
-    
-}
-
-.copy{
-    text-align: center;
-}
-.source,.contact,.sitemap,.socials p{
-    text-align: center;
-}
-.foot{
-    background-color: black;
-    margin-top:10px;
-    padding-bottom:5px;
-    width: 100%;
-    opacity: 85%;
-}
-.foot p{
-    color:yellow;
-}
-a:hover{
-    text-decoration:none;
 }
 h2{
     color:indigo;
@@ -74,6 +52,32 @@ h4{
     font-size: large;
     color:indigo;
 }
+
+#offer img{
+    background-repeat: no-repeat;
+    height:100px;
+    object-fit:cover;
+    gap:.5rem;
+    padding: .6rem;
+    width: 280px;
+    height:200px;
+}
+#offer{
+    display:flex;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+/*------------------------------OFFER SECTION ENDS HERE------------------------------------------*/
+
+/*------------------------------SAYING  SECTION STARTS HERE------------------------------------------*/
+
+
+a:hover{
+    text-decoration:none;
+}
+
 .saying{
     display:flex;
     gap: .5rem;
@@ -101,9 +105,6 @@ h4{
 
 .saying .num1,.num2,.num3,.num4{
     border-radius:20px;
-}
-body{
-    background-color: lavender;
 }
 .line{
     padding-bottom:50px;
@@ -161,22 +162,7 @@ h3{
 .icon3 img{
     height:20px;
 }
-#offer img{
-    background-repeat: no-repeat;
-    height:100px;
-    object-fit:cover;
-    gap:.5rem;
-    padding: .6rem;
-    width: 280px;
-    height:200px;
-}
-#offer{
-    display:flex;
-    text-align: center;
-    padding-top:30px;
-    padding-bottom:30px;
 
-}
 .box img{
     background-repeat: no-repeat;
     border-radius:50%;
@@ -206,16 +192,50 @@ h3{
     padding-left:30px;
     padding-right:20px;
 }
-.bottom img{
-    border-radius:50%;
-    object-fit:cover;
+
+/*------------------------------SAYING  SECTION ENDS HERE------------------------------------------*/
+
+
+/*------------------------------FOOTER  SECTION STARTS HERE------------------------------------------*/
+
+.mem{
+    display:flex;
     background-position: center;
-    height:100px;
-    padding-bottom:10px;
-    height:30px;
-    width: auto;
-    display: inline-block;
+    padding-top:30px;
+    justify-content: center;
+    gap:4rem;
+    
 }
+.foot li{
+    padding-right: 10px;
+    
+}
+
+.foot a{
+    color:whitesmoke;
+}
+.foot a:hover{
+    color:indigo;
+}
+
+
+.copy{
+    text-align: center;
+}
+.source,.contact,.sitemap,.socials p{
+    text-align: center;
+}
+.foot{
+    background-color: black;
+    margin-top:10px;
+    padding-bottom:5px;
+    width: 100%;
+    opacity: 85%;
+}
+.foot p{
+    color:yellow;
+}
+
 .bottom p{
     margin-right:15px;
 }
@@ -237,3 +257,17 @@ a:hover{
 .block{
     display:flex;
 }
+
+.bottom img{
+    border-radius:50%;
+    object-fit:cover;
+    background-position: center;
+    height:100px;
+    padding-bottom:10px;
+    height:30px;
+    width: auto;
+    display: inline-block;
+}
+
+/*------------------------------FOOTER  SECTION ENDS HERE------------------------------------------*/
+
