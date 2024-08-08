@@ -35,24 +35,31 @@ h1:hover{
 .mem{
     display:flex;
     background-position: center;
-    text-align: center;
-    padding-bottom:20px;
+    padding-top:30px;
+    justify-content: center;
+    gap:4rem;
+    
 }
-.source{
-    padding-left:350px;
+.foot li{
+    padding-right: 10px;
+    
 }
-.sitemap{
-    padding-left:350px;
-}
-.contact{
-    padding-left:50px;
-}
+
 .copy{
     text-align: center;
 }
+.source,.contact,.sitemap,.socials p{
+    text-align: center;
+}
 .foot{
-    background-color: slategrey;
-    padding-bottom:20px;
+    background-color: black;
+    margin-top:10px;
+    padding-bottom:5px;
+    width: 100%;
+    opacity: 85%;
+}
+.foot p{
+    color:yellow;
 }
 a:hover{
     text-decoration:none;
@@ -204,8 +211,29 @@ h3{
     object-fit:cover;
     background-position: center;
     height:100px;
-    padding-top:10px;
-    height:40px;
+    padding-bottom:10px;
+    height:30px;
     width: auto;
     display: inline-block;
+}
+.bottom p{
+    margin-right:15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.foot p{
+    color:whitesmoke;
+}
+.contact img{
+    border-radius:50%;
+    object-fit: cover;
+    height: 30px;
+    padding-bottom:10px;
+}
+.block{
+    display:flex;
 }
