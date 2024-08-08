@@ -403,11 +403,13 @@ h1{
     color: white;
     font-size: medium;
     border: 0;
-    
-
+}
+#login-btn:hover{
+    background-color: #007bff;
+    color: white;
 }
 .reminder{
-    /*  */
+    margin: .5rem 0;
 }
 .btn-box{
     background-color:rgb(121, 224, 30);
