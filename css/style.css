@@ -394,3 +394,88 @@ ul li{
     margin-right: 5px;
 }
 
+/*========================= Blog Ends starts here =========================*/
+/*========================= Footer starts here =========================*/
+.Footer{
+    display: flex;
+    margin-left: 250px;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.Footer img{
+    height: 25px;
+    width: 25px;
+}
+
+.rule{
+    border-top: 2px solid white;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.foot-container{
+    background: linear-gradient(to right, rgba(43, 43, 164), #48a2de);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin: 0 auto;
+}
+
+.head a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: skyblue;
+}
+
+.items ul li a{
+    font-size: 12px;
+    color:rgb(12, 161, 144);
+    font-weight: xx-small;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.flex-b{
+    margin-right: 35px;
+    margin-left: 50px;
+}
+
+.flex-b a{
+    text-decoration: none;
+}
+
+.head span{
+    color: red;
+    padding-left: 300px;
+    font-size: 24px;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.copy{
+    color: white;
+    font-weight: xx-small;
+    padding-right: 300px;
+    margin: 0 auto;
+}
+
+.hero-image{
+    padding-right: 300px;
+    margin: 0 auto;
+}
+
+.logo-1{
+    margin-right: 150px;
+    margin: 0 auto;
+}
+
+
+/*============== Footer Ends HERE!!! ===================*/
