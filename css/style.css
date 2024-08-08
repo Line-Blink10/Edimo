@@ -160,8 +160,14 @@ ul li{
     color:rgb(121, 224, 30);
     margin: 0.8rem 1rem;
 
-
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .aboutpage-btn:hover{
     background-color:rgb(121, 224, 30);
     color: white;
@@ -411,3 +417,444 @@ h1{
     text-decoration: none;
 }
 
+/*========================= Blog Page starts here =========================*/
+
+.blue-section {
+    background: linear-gradient(to right, rgb(43, 43, 164), #48a2de);
+    color: #fff;
+    padding: 80px; 
+    text-align: center;
+}
+
+.h1-head h1 {
+    font-size: 96px; 
+    margin: 0;
+    font-weight: lighter;
+}
+
+.h5-head h5 {
+    font-size: 24px; 
+    margin: 60px 0; 
+    font-weight: lighter;
+}
+
+
+/* Container Styles */
+.sticky-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sticky-content {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: auto; /* Reduced max-width */
+    width: 1250px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Image Styles */
+.sticky-img {
+    flex: 1;
+    margin: 20px;
+}
+
+.sticky-img img {
+    width: 600px;
+    height: 600px;
+    max-height: 500px; /* Adjust max-height as needed */
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/* Info Section Styles */
+.sticky-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures spacing between elements */
+    margin: 40px; /* Ensure at least 10px margin from the image */
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.sticky-people-date,
+.sticky-info-title,
+.sticky-text,
+.sticky-view {
+    padding-bottom: 15px;
+}
+
+.sticky-people-date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Space between people/date and next section */
+}
+
+.sticky-people {
+    font-weight: bold;
+    margin-right: 10px;
+    padding-right: 300px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.sticky-date {
+    color: #888;
+}
+
+.sticker-info-title{
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.sticky-info-title a,
+.sticky-view-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-info-title a:hover,
+.sticky-view-link:hover {
+    text-decoration: underline;
+}
+
+.sticky-view-link {
+    color: blue;
+}
+
+.sticky-reaction{
+    padding-top: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sticky-reaction .love img,
+.sticky-reaction .like img,
+.sticky-reaction .reply img{
+    width: 35px;
+    height: 35px;
+}
+
+.sticky-reaction .love,
+.sticky-reaction .like,
+.sticky-reaction .reply {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.sticky-reaction .love .count,
+.sticky-reaction .like .count,
+.sticky-reaction .reply .count{
+}
+
+.sticky-view img{
+    padding-top: 25px;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.sticky-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgba(68, 89, 117, 0.314);
+}
+
+/* Container Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    max-width: 1300px; /* Set a maximum width */
+    margin: 0 auto; /* Center the grid container */
+    padding-bottom: 150px;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    height: 650px;
+}
+
+.article-card img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.article-category {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.article-date {
+    color: #888;
+}
+
+.reaction{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.reaction .love img,
+.reaction .like img,
+.reaction .reply img{
+    width: 40px;
+    height: 55px;
+}
+
+.reaction .love,
+.reaction .like,
+.reaction .reply {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.reaction .love .count,
+.reaction .like .count,
+.reaction .reply .count{
+    margin-left: 5px;
+}
+
+.article-title a {
+    text-decoration: none;
+    color: black;
+    padding-top: 0px;
+}
+
+.article-title{
+    margin: 0;
+    white-space: pre-wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+.article-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.article-link{
+    display: flex;
+}
+
+.article-link img{
+    width: 25px;
+    height: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.article-link a:hover,
+.article-title a:hover {
+    color: blue;
+}
+
+
+.superposed-block {
+    background-color: white;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 250px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1px; /* Reduce gap between items */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 0 0;
+    margin: 0 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#nav-link-2 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 10px; /* Adjust padding to make the link circular */
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* General styling for the subscribe section */
+ .subscribe-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form img{
+    width: 15px;
+    height: auto;
+}
+
+/* Styling for the subscribe header */
+/* Styling for the subscribe title */
+#subscribe-header {
+    color: blue;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+/* Styling for the subscribe form */
+.subscribe-form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the input field */
+.subscribe-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 800px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    color: #aaa;
+}
+
+/* Styling for the button */
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 1px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the span inside the button */
+.subscribe-button-text {
+    margin-right: 5px;
+}
+
+/* Styling for contact Us */
+.contact-Us {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-center {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.d-center #Find-Us {
+    font-size: 36px;
+}
+
+.d-center #Contact-Us {
+    padding-bottom: 25px;
+   font-size: 16px;
+    color: #888;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-image {
+    width: 20px; /* Adjust the width to make the images very small */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.contact-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #888;
+}
+
+.contact-image{
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.contact-image:hover{
+    color: white;
+}
+
+/* Responsive for phones */
+@media device and(max-width: 742px){
+
+}
+
+/* =========================== Blog Page ends here ========================*/
