@@ -9,6 +9,7 @@
     background-color: aqua;
     gap: .5rem;
     margin-top: 200px;
+    margin-left: 15px;
  }
 
             /* Login Content section CSS */
@@ -19,7 +20,7 @@
     margin: 0 auto;
     width: 350px;
     height: 370px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 20px;
 }
 
