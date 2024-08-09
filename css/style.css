@@ -1,5 +1,5 @@
 
-body{
+.area{
     background-color: lavender;
 }
 
@@ -27,7 +27,7 @@ body{
     font-size:20px;
 }
 
-h1{
+.h1{
     color:white;
     padding-top:90px;
 }
@@ -36,13 +36,13 @@ h1{
 
 
 /*------------------------------OFFER SECTION------------------------------------------*/
-h1:hover{
+.h1:hover{
     color: orangered;
 }
 .para{
     color:black;
 }
-h2{
+.header2{
     color:indigo;
     padding-left: 150px;
     padding-top: 30px;
@@ -127,7 +127,7 @@ h3{
     text-align: center;
 }
 .icon img{
-    height:20px;
+     height:20px;
 }
 .icon1{
     background-repeat: no-repeat;
@@ -195,9 +195,9 @@ h3{
 
 /*------------------------------SAYING  SECTION ENDS HERE------------------------------------------*/
 
-a{
+.links{
     text-decoration: none;
 }
-a:hover{
+.links:hover{
     text-decoration: underline;
 }
