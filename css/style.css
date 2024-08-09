@@ -1,9 +1,11 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     cursor: pointer;
+    
 }
 /* ==================Responsive section ====================== */
 @media screen and (max-width:576px) {
@@ -56,10 +58,12 @@
 ul li{
     display: inline-block;
     padding: 7px;
-    padding-top: 0;
-    
-    
-    
+    padding-top: 0; 
+}
+li:hover{
+     background-color: rgb(121, 224, 30);
+     color: white;
+     border-radius: 6px;
 }
 .nav-bar{
     width: 70%;
@@ -160,8 +164,14 @@ ul li{
     color:rgb(121, 224, 30);
     margin: 0.8rem 1rem;
 
-
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .aboutpage-btn:hover{
     background-color:rgb(121, 224, 30);
     color: white;
@@ -201,14 +211,16 @@ ul li{
 }
 
 /*=========================what we offer section===========================*/
-.d-flex{
+.supporters-flex{
     display: flex;
-    gap:20px;
+    gap:15px;
     margin-left: 35px;
     
+    
 }
-.d-flex article{
+.supporters-flex article{
     background-color: whitesmoke;
+    width: 19rem;
 
 }
 h2{
@@ -217,8 +229,11 @@ h2{
 }
 article div{
     width: 19rem;
-    height: 60%;
-   
+    height: 60%;   
+}
+article div a, p{
+    padding:.1rem auto ;   
+    margin: .5rem auto;
 }
 .img-width{
     width: 18.9rem;
@@ -310,7 +325,7 @@ h4 {
     
     
 }
-.icon-size{
+.testimonial-icon-size{
     height: 1rem;
     padding: 2px;
     }
@@ -388,11 +403,13 @@ h1{
     color: white;
     font-size: medium;
     border: 0;
-    
-
+}
+#login-btn:hover{
+    background-color: #007bff;
+    color: white;
 }
 .reminder{
-    padding-right: 3.3cm;
+    margin: .5rem 0;
 }
 .btn-box{
     background-color:rgb(121, 224, 30);
@@ -409,5 +426,543 @@ h1{
 }
 .forgotten-password{
     text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+
+}
+
+/*========================= Blog Page starts here =========================*/
+
+.blue-section {
+    background: linear-gradient(to right, rgb(43, 43, 164), #48a2de);
+    color: #fff;
+    padding: 100px; 
+    text-align: center;
+}
+
+.h1-head h1 {
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.nav-head a{
+    font-size: 24px; 
+    margin: 60px 0; 
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-head a:hover{
+    color: red;
+}
+
+
+/* Container Styles */
+.sticky-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sticky-content {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1250px;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+/* Image Styles */
+
+.sticky-img img {
+    width: 600px;
+    height: 600px;
+    max-height: 400px; /* Adjust max-height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* Info Section Styles */
+.sticky-info {
+    flex: 2;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures spacing between elements */
+    margin-left: 20px; /* Ensure at least 10px margin from the image */
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+    font-size: x-large;
+    padding: auto;
+}
+
+.sticky-people-date {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 25px;                 /* Space between people/date and next section */
+}
+
+.sticky-people {
+    font-weight: bold;
+    margin-right: 10px;
+    padding-right: 150px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.sticky-date {
+    color: #888;
+}
+
+.sticker-title{
+    text-decoration: none;
+}
+
+.sticky-info-title a,
+.sticky-view-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-info-title a:hover,
+.sticky-view-link:hover {
+    text-decoration: underline;
+}
+
+.sticky-view{
+    padding-bottom: 15px;
+}
+
+.sticky-view-link {
+    color: blue;
+}
+
+.sticky-reaction{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.sticky-reaction .love img,
+.sticky-reaction .like img,
+.sticky-reaction .reply img{
+    margin-top: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.sticky-reaction .love,
+.sticky-reaction .like,
+.sticky-reaction .reply {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.sticky-view img{
+    padding-top: 25px;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.sticky-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgba(68, 89, 117, 0.314);
+}
+
+
+/* Container Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    max-width: 1300px; /* Set a maximum width */
+    margin: 0 auto; /* Center the grid container */
+    padding-bottom: 50px;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    height: 675px;
+}
+
+.article-card img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.article-category {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.article-date {
+    color: #888;
+}
+
+.reaction{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.reaction .love img,
+.reaction .like img,
+.reaction .reply img{
+    padding: 5px;
+    width: 2.5rem; 
+    height: 2.5rem;
+}
+
+.reaction .love,
+.reaction .like,
+.reaction .reply {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.reaction .love .count,
+.reaction .like .count,
+.reaction .reply .count{
+    margin-left: 5px;
+}
+
+.article-title a {
+    text-decoration: none;
+    color: black;
+    padding-top: 0px;
+}
+
+.article-title{ 
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+.sub-title{
+    padding-bottom: 25px;
+}
+
+.article-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.article-link{
+    display: flex;
+}
+
+.article-link img{
+    width: 40px;
+    height: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.article-link a:hover,
+.article-title a:hover {
+    color: blue;
+}
+
+
+.superposed-block {
+    background-color: white;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1px; /* Reduce gap between items */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 0 0;
+    margin: 0 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#nav-link-2 {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    padding: 10px 10px; /* Adjust padding to make the link circular */
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* General styling for the subscribe section */
+ .subscribe-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form img{
+    width: 15px;
+    height: auto;
+}
+
+/* Styling for the subscribe header */
+/* Styling for the subscribe title */
+#subscribe-header {
+    color: blue;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+/* Styling for the subscribe form */
+.subscribe-form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* Styling for the input field */
+.subscribe-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 800px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    color: #aaa;
+}
+
+/* Styling for the button */
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 1px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the span inside the button */
+.subscribe-button-text {
+    margin-right: 5px;
+}
+
+/* Styling for contact Us */
+.contact-Us {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-center {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.d-center #Find-Us {
+    font-size: 36px;
+}
+
+.d-center #Contact-Us {
+    padding-bottom: 25px;
+   font-size: 16px;
+    color: #888;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-image {
+    width: 20px; /* Adjust the width to make the images very small */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.contact-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #888;
+}
+
+.contact-image{
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.contact-image:hover{
+    color: white;
+}
+
+/* Responsive for phones */
+@media device and(max-width: 742px){
+
+}
+
+/* =========================== Blog Page ends here ========================*/
+
+/*== Section one ==*/
+.main-about
+{
+    background-image: url(../images/product-image14.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.main-about h1{
+  text-align: center;
+  color: white;
+  padding-top: 7rem;
+}
+.main-about a{
+  text-align: center;
+  color: white;
+  padding-top: 7.5rem;
+  flex-direction: column;
+}
+
+.about {
+    padding: 2.5rem 10rem;
+
+}
+.about .about-description {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: .6rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.about h2 {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+
+.about_img_section{
+    display: flex;
+    flex-direction: row;
+}
+
+/*=== Section Two ===*/
+.container{
+    display: flex;
+}
+
+.container img{
+    width: 500px;
+    height: 300px;
+}
+
+.description{
+    padding: 40px 25px 25px 25px;
+    text-align: justify;
+}
+
+/*=== Section Three ===*/
+.d-flex{
+    display: flex;
+    margin: 5%;
+    padding-right: 15px;
+}
+
+.d-flex img{
+    padding: 10px auto 10px auto;
+    width: 50px;
+    height:50px;
+}
+
+.bg-img{
+    border: 2px solid #f4f4f4;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+.sponsors{
+    display: flex;
+}
+
+.sponsors img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }
 

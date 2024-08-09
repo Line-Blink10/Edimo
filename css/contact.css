@@ -1,0 +1,214 @@
+    /* BODY */
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+
+         /* Header CSS */
+
+    .main-contact {
+        background-image: url("../images/BACK.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: hue;
+        background-position: center;
+        text-align: center;
+        height: 450px;
+        padding: 130px;
+        color: rgb(255, 255, 255);
+        gap: 15rem;
+    }
+
+
+    #contact-us {
+        font-size: 30;
+    }
+
+    #Home4 {
+        padding: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .contact-us {
+        color: white;
+        text-decoration: none;
+        font-size: small;
+    }
+
+   
+            /* Contact-Us informations CSS*/
+
+    .contact {
+        background-color: whitesmoke
+    }
+
+    .column1{
+       /* padding: 20px; */
+       /* gap: 5rem; */
+       margin: 0 5rem ;
+    }
+
+    .container-choices {
+        margin: 0 10rem;
+        padding: 4rem 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+
+              /* CALL SECTION CSS*/
+    .call {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+    }
+
+    .call img {
+        height: 3rem;
+    }
+
+    .call-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+             /*  Open section CSS */
+
+    .open_hours {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        margin: 1rem 0 1rem 0;
+        font-size: small;
+    }
+
+    .open-img img {
+        height: 3rem;
+    }
+
+    .open-text {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+
+          /* Email section CSS*/
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        margin: 1rem 0 1rem 0;
+        font-size: small;
+    }
+
+    .email-text {
+        /* padding: 1rem 0; */
+        gap: .5rem;
+        flex-direction: column;
+    }
+
+    .email img {
+        height: 3rem;
+    }
+
+              /* Location Section CSS */
+    .location {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        margin: 1rem 0 1rem 0;
+        font-size: small;
+        
+    }
+
+    .loca-img img {
+        width: 3rem;
+    }
+
+    .loca_text {
+        gap: .5rem;
+        flex-direction: column;
+    }
+
+             /* Button for send message */
+
+    button {
+        padding: .5rem 0;
+
+    }
+
+
+          /*     FORM SECTION  CSS */
+    .column2 {
+        text-align: center;
+        padding: 0px 7px;
+        margin: auto;
+        grid-row: .9rem;
+       
+    }
+
+    .first-input,
+    input[type=text],
+    input[type=email] {
+        border-radius: .5rem;
+        border-style: none;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+
+    }
+
+    .box-size {
+        width: 25rem;
+    }
+
+    #box-size {
+        width: 25rem;
+    }
+
+    #box-size2 {
+        width: 50rem;
+    }
+
+
+    #box-size1 {
+        width: 50rem;
+        height: 15rem;
+        border: 1px solid black;
+        margin-left: .5rem;
+        border-radius: .5rem;
+    }
+
+    .button {
+        margin: .8rem 0 ;
+    }
+
+    .submit-mesg {
+        width: 99%;
+        background-color: rgb(43, 226, 159);
+        border-radius: .5rem;        
+        color: #fff;
+        border-color: rgb(43, 226, 159);
+    }
+
+    .button .submit-mesg:hover {
+        background-color: #fff;
+        color: rgb(43, 226, 147);        
+        border: 1px solid rgb(43, 226, 147);
+    }
+
+
+    /* RESPONSIVE CSS */
+@media screen and (min-width > 822) {
+   
+    
+}
