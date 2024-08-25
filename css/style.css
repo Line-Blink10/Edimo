@@ -813,158 +813,88 @@ h1{
     margin-right: 5px;
 }
 
-/* Styling for contact Us */
-.contact-Us {
+/*========================= Blog Ends starts here =========================*/
+/*========================= Footer starts here =========================*/
+.Footer{
     display: flex;
-    flex-direction: column;
+    margin-left: 250px;
 }
 
-.d-center {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.d-center #Find-Us {
-    font-size: 36px;
-}
-
-.d-center #Contact-Us {
-    padding-bottom: 25px;
-   font-size: 16px;
-    color: #888;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 250px;
-}
-
-.contact-item {
-    text-align: center;
-}
-
-.contact-image {
-    width: 20px; /* Adjust the width to make the images very small */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.contact-text {
-    display: block;
-    margin-top: 5px;
-    font-size: 16px;
-    color: #888;
-}
-
-.contact-image{
-    margin-left: 50px;
-    width: auto;
-    height: auto;
-    padding-bottom: 25px;
-}
-
-.contact-image:hover{
-    color: white;
-}
-
-/* Responsive for phones */
-@media device and(max-width: 742px){
-
-}
-
-/* =========================== Blog Page ends here ========================*/
-
-/*== Section one ==*/
-.main-about
-{
-    background-image: url(../images/product-image14.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    text-align: center;
-    color: white;
-}
-.main-about h1{
-  text-align: center;
-  color: white;
-  padding-top: 7rem;
-}
-.main-about a{
-  text-align: center;
-  color: white;
-  padding-top: 7.5rem;
-  flex-direction: column;
-}
-
-.about {
-    padding: 2.5rem 10rem;
-
-}
-.about .about-description {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    gap: .6rem;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 50px;
-    
-}
-
-.about h2 {
-    margin-top: .2rem;
-    margin-bottom: .2rem;
-}
-
-.about_img_section{
-    display: flex;
-    flex-direction: row;
-}
-
-/*=== Section Two ===*/
-.container{
+.hero-section{
     display: flex;
 }
 
-.container img{
-    width: 500px;
-    height: 300px;
-}
-
-.description{
-    padding: 40px 25px 25px 25px;
-    text-align: justify;
-}
-
-/*=== Section Three ===*/
-.d-flex{
-    display: flex;
-    margin: 5%;
-    padding-right: 15px;
-}
-
-.d-flex img{
-    padding: 10px auto 10px auto;
-    width: 50px;
-    height:50px;
-}
-
-.bg-img{
-    border: 2px solid #f4f4f4;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    padding: 25px 25px 25px 25px;
-}
-
-.sponsors{
-    display: flex;
-}
-
-.sponsors img{
-    width: 25px;
+.Footer img{
     height: 25px;
-    margin-right: 10px;
+    width: 25px;
 }
 
+.rule{
+    border-top: 2px solid white;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.foot-container{
+    background: linear-gradient(to right, rgba(43, 43, 164), #48a2de);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin: 0 auto;
+}
+
+.head a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: skyblue;
+}
+
+.items ul li a{
+    font-size: 12px;
+    color:rgb(12, 161, 144);
+    font-weight: xx-small;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.flex-b{
+    margin-right: 35px;
+    margin-left: 50px;
+}
+
+.flex-b a{
+    text-decoration: none;
+}
+
+.head span{
+    color: red;
+    padding-left: 300px;
+    font-size: 24px;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.copy{
+    color: white;
+    font-weight: xx-small;
+    padding-right: 300px;
+    margin: 0 auto;
+}
+
+.hero-image{
+    padding-right: 300px;
+    margin: 0 auto;
+}
+
+.logo-1{
+    margin-right: 150px;
+    margin: 0 auto;
+}
+
+
+/*============== Footer Ends HERE!!! ===================*/
