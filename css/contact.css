@@ -17,10 +17,10 @@
         background-blend-mode: hue;
         background-position: center;
         text-align: center;
-        height: 450px;
-        padding: 130px;
+        height: 350px;
+        padding: 100px;
         color: rgb(255, 255, 255);
-        gap: 15rem;
+        gap: 5rem;
     }
 
 
@@ -152,7 +152,7 @@
         text-align: center;
         padding: 0px 7px;
         margin: auto;
-        grid-row: .9rem;
+        grid-row: .5rem;
        
     }
 
@@ -208,7 +208,63 @@
 
 
     /* RESPONSIVE CSS */
-@media screen and (min-width > 822) {
-   
+    /* Laptop styles   */
+@media screen and (min-width > 822px) {
+   .main-contact{
+      width: 1500px;
+      height: 850px;
+      
+   }
+
+   .contact{
+       font-size: 1.2rem;
+   }
+
+   .container-choices{
+        font-size: small;
+   }
+
+   .column1{
+        font-size: smaller;
+   }
+
+   .column2{
+        font-size: smaller;
+
+   }
+
+   /* Desktop styles   */
+   @media screen and (min-width > 822px) {
+    .main-contact{
+       width: 1500px;
+       height: 900px;
+       
+    }
+ 
+    .contact{
+        font-size: 1.2rem;
+    }
+ 
+    .container-choices{
+         font-size: small;
+    }
+ 
+    .column1{
+         font-size: smaller;
+    }
+ 
+    .column2{
+         font-size: smaller;
+ 
+    }
+  /* Mobile style */
+ @media screen and (max-width< 76px) {
+    body{
+        font-size: 5rem;
+        width: 600;
+        height: 200;
+    }
+    
+ } 
     
 }
